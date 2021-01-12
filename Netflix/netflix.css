@@ -1,0 +1,75 @@
+body{
+     background-image: url("./assets/arka.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.head{
+    width: 220px;
+}
+form{
+    width: 80%;
+    margin: 0px auto 0px auto ;
+}
+h1{
+    margin-top: 30px;
+}
+main{
+    width: 370px;
+    margin: 20px auto 100px auto;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    opacity: 0.96;
+    padding: 30px;
+}
+.bilgi{
+    background-color: #3f3f3f;
+    padding: 15px 3px;
+    color: white;
+    border-radius: 5px;
+    width: 98%;
+    border: none;
+    margin: 10px;
+}
+.red-btn{
+    width: 99%;
+    color: white;
+    padding: 17px;
+    border-radius: 5px;
+    border: none;
+    margin: 30px 10px;
+    background-color: #cc0000;
+}
+.check{
+    display: flex;
+    margin: auto;
+    font-size: 12px;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.face-img{
+    width: 20px;
+    border-radius: 3px;
+}
+.facebook-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    font-size: 14px;
+    margin: auto;
+}
+
+.text-box{
+    font-size: 12px;
+    width: 80%;
+    margin: 0px auto 50px auto;
+    text-align: justify;
+}
+@media(max-width:620px){
+    main{
+        width: 100%;
+        margin-left: -20px;
+    }
+}
